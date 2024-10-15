@@ -1,0 +1,224 @@
+/* Estilos gerais */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    margin-top: 80px; /* Adiciona espaço suficiente para o cabeçalho */
+    padding-bottom: 100px; /* Adiciona espaço para o footer */
+}
+
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #308010;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Garante que o cabeçalho esteja acima do conteúdo */
+    height: 80px; /* Ajuste conforme necessário */
+    display: flex;
+    align-items: center;
+    padding: 0 10px; /* Adiciona algum espaçamento interno */
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espaça a logo-container e a navbar */
+    position: relative; /* Permite o posicionamento absoluto da imagem do canto */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Alinha as imagens verticalmente */
+}
+
+.logo {
+    height: 60px; /* Define a altura padrão das imagens */
+    width: auto; /* Mantém a proporção da imagem */
+    margin-right: 10px; /* Espaçamento entre as imagens */
+    object-fit: contain; /* Garante que a imagem mantenha a proporção sem cortar */
+}
+
+/* Ajustes específicos para algumas imagens */
+.logo1 {
+    height: 90px; /* Define uma altura maior para a logo1 */
+}
+
+.logo2 {
+    height: 115px; /* Define uma altura maior para a logo2 */
+}
+
+.logo3 {
+    height: 60px; /* Define uma altura menor para a logo3 */
+}
+
+.logo4, .logo5, .logo6 {
+    height: 60px; /* Define a altura padrão para as outras imagens */
+    width: auto; /* Mantém a proporção da imagem */
+    object-fit: contain; /* Garante que a imagem mantenha a proporção sem cortar */
+}
+
+/* Estilo para a imagem no canto do cabeçalho */
+.corner-image {
+    position: absolute; /* Permite posicionar a imagem de forma absoluta */
+    right: -70px; /* Alinha a imagem ao lado esquerdo */
+    top: 50%; /* Alinha a imagem verticalmente ao centro */
+    transform: translateY(-50%); /* Ajusta o alinhamento vertical para centralizar corretamente */
+    height: 70px; /* Define a altura da imagem do canto, ajuste conforme necessário */
+    width: auto; /* Mantém a proporção da imagem */
+}
+
+.nav-list {
+    list-style: none;
+    display: flex; /* Alinha a lista horizontalmente */
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.nav-item a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: x-large; /* Ajuste o tamanho conforme necessário */
+    margin: 30px; /* Adiciona espaço ao redor do título */
+    padding: 0 30px; /* Adiciona espaço interno para afastar do canto */
+}
+
+.tituloCONT {
+    text-align: center;
+    font-size: x-large; /* Ajuste o tamanho conforme necessário */
+    margin: 30px; /* Adiciona espaço ao redor do título */
+    padding: 0 30px; /* Adiciona espaço interno para afastar do canto */
+}
+
+.tituloES {
+    text-align: center;
+    font-size: x-large; /* Ajuste o tamanho conforme necessário */
+    margin: 30px; /* Adiciona espaço ao redor do título */
+    padding: 0 30px; /* Adiciona espaço interno para afastar do canto */
+}
+
+.tituloHIS {
+    text-align: center;
+    font-size: x-large; /* Ajuste o tamanho conforme necessário */
+    margin: 30px; /* Adiciona espaço ao redor do título */
+    padding: 0 30px; /* Adiciona espaço interno para afastar do canto */
+}
+
+.tituloAPF {
+    text-align: center;
+    font-size: x-large; /* Ajuste o tamanho conforme necessário */
+    margin: 30px; /* Adiciona espaço ao redor do título */
+    padding: 0 30px; /* Adiciona espaço interno para afastar do canto */
+}
+
+.tituloCONT {
+    text-align: center;
+    font-size: x-large; /* Ajuste o tamanho conforme necessário */
+    margin: 30px; /* Adiciona espaço ao redor do título */
+    padding: 0 30px; /* Adiciona espaço interno para afastar do canto */
+}
+
+.texto1{
+    padding: 20px; /* Adiciona espaçamento interno */
+    margin: 0 100px; /* Adiciona espaço nas laterais */
+    text-align: justify; /* Alinha o texto de forma justificada (opcional) */
+    font-size: larger;
+}
+
+.texto2{
+    padding: 20px; /* Adiciona espaçamento interno */
+    margin: 0 100px; /* Adiciona espaço nas laterais */
+    text-align: justify; /* Alinha o texto de forma justificada (opcional) */
+    font-size: larger;
+}
+
+.textoAREAS{
+    padding: 20px; /* Adiciona espaçamento interno */
+    margin: 0 100px; /* Adiciona espaço nas laterais */
+    text-align: justify; /* Alinha o texto de forma justificada (opcional) */
+    font-size: larger;
+}
+
+.textoES{
+    padding: 20px; /* Adiciona espaçamento interno */
+    margin: 0 100px; /* Adiciona espaço nas laterais */
+    text-align: justify; /* Alinha o texto de forma justificada (opcional) */
+    font-size: larger;
+}
+
+.textoHIS{
+    padding: 20px; /* Adiciona espaçamento interno */
+    margin: 0 100px; /* Adiciona espaço nas laterais */
+    text-align: justify; /* Alinha o texto de forma justificada (opcional) */
+    font-size: larger;
+}
+
+.textoCONT{
+    padding: 20px; /* Adiciona espaçamento interno */
+    margin: 0 100px; /* Adiciona espaço nas laterais */
+    text-align: justify; /* Alinha o texto de forma justificada (opcional) */
+    font-size: larger;
+}
+
+.fotoES {
+    width: 240px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção */
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+    vertical-align: middle; /* Alinha a imagem verticalmente com o texto */
+}
+
+.redes-sociais {
+    display: flex; /* Alinha os ícones horizontalmente */
+    justify-content: left; /* Centraliza os ícones */
+    margin-top: 20px; /* Espaço acima dos ícones */
+}
+
+.cont{
+    margin: 0 17px; /* Espaço entre os ícones */
+}
+
+.logoCONT {
+    width: 40px; /* Ajuste o tamanho dos ícones */
+    height: auto; /* Mantém a proporção */
+    margin: 0 10px; /* Espaço entre os ícones */
+}
+
+footer {
+    background-color: #308010; /* Cor de fundo igual ao cabeçalho */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Adiciona espaçamento interno */
+    position: relative; /* Garante que fique abaixo do conteúdo */
+    bottom: 0; /* Para garantir que ele fique na parte inferior da página */
+    width: 100%; /* Ocupa toda a largura da página */
+    margin-top: 20px; /* Espaço acima do rodapé */
+    position: fixed;
+}
